@@ -21,4 +21,13 @@ public class Dog extends Animal {
     public void setColour(String colour) {
         this.colour = colour;
     }
+
+    public void bark(){
+        System.out.println(" gaf-gaf");
+    }
+
+    @Override
+    public String toString(){
+        return super.toString() + this.colour;
+    }
 }
