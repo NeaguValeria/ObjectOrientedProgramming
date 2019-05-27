@@ -18,4 +18,24 @@ public  abstract class Vehicle{
     }
     public abstract void printStates();
 
+    public Vehicle() {
+        this.speed = 0;
+        this.gear = 0;
+    }
+
+    public int getSpeed() {
+        return speed;
+    }
+
+    public void setSpeed(int speed) {
+        this.speed = speed;
+    }
+
+    public int getGear() {
+        return gear;
+    }
+
+    public void setGear(int gear) {
+        this.gear = gear;
+    }
 }
